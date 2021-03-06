@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5473353442879039352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5473353442879039354}
+  - component: {fileID: 5473353442879039353}
+  m_Layer: 0
+  m_Name: Trees
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5473353442879039354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5473353442879039352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 771, y: 0, z: 269}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5473353442879039353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5473353442879039352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149b7b6e468de1d4c88d9a321622b52a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generateEnverment: 1
+  radius: 200
+  amountPlant: 40
+  amountTree: 150
+  amountDeadTree: 20
+  amountStubb: 0
+  amountStone: 20
+  amountMushroom: 20
+  amountFireflies: 25
+  plantPrefab:
+  - {fileID: 7405182887073182111, guid: c1358434077c1e144950b425b39c6356, type: 3}
+  - {fileID: 2739933516063770960, guid: 72b3e509f2a25cc4d9314a9305bc2a01, type: 3}
+  treePrefab:
+  - {fileID: 6290106638085425522, guid: 20e100853a0016444b90e8e9af139f95, type: 3}
+  - {fileID: 1708341547222667143, guid: 08bc50be9eae4544486e10161004fb76, type: 3}
+  - {fileID: 3425698326818787436, guid: 4cfdcd76eb37cbb419f41f4b70a7f6df, type: 3}
+  - {fileID: 6508155424657129989, guid: 8871fdf0629f44647af314a9fcee4e26, type: 3}
+  - {fileID: 3232289733384155435, guid: 8b4c2b472f856264fbc44de5d88a4f7c, type: 3}
+  - {fileID: 3935084579766675255, guid: 1afdc1f6efd4c87498d3e80c80a88c10, type: 3}
+  - {fileID: 4251114780069304572, guid: 9d230d45d530cce4e8eeebdb7448a614, type: 3}
+  - {fileID: 8573376715652971583, guid: b203a40a61265e44fb913be409489cbb, type: 3}
+  - {fileID: 5715254368481896319, guid: 86d6c1f002bce4d489cd53bff6e3eac0, type: 3}
+  - {fileID: 3144864562077808952, guid: eaefe5fd7c1eb6e4cb6cb3ebbdce845c, type: 3}
+  - {fileID: 5693208401128380273, guid: c4e13bee4ad6a2b4a943bfd5e8594809, type: 3}
+  - {fileID: 2406033904752763860, guid: 8390595c5a98a09419d3ee76d0487d08, type: 3}
+  - {fileID: 9202239333111163867, guid: 8705f32994ce48845b9977b9aa1b5a9e, type: 3}
+  - {fileID: 8136297204556651338, guid: 84fa7481bd0ca9a498ba1308353edf28, type: 3}
+  - {fileID: 7425699676733979469, guid: f6cd677f96bda034ca8598efa28e2469, type: 3}
+  - {fileID: 8801869398905066095, guid: 18d82428ec783b64eaa318ee7eabbcbb, type: 3}
+  - {fileID: 5204280255753821712, guid: eacc22838d2ce924187c4049f4416038, type: 3}
+  - {fileID: 3873997464269991609, guid: de7d93fb90c876a4192f0c17bcd9118c, type: 3}
+  - {fileID: 335561015224697697, guid: 7b1480d625108d2489e014773e9653e1, type: 3}
+  - {fileID: 829596389272252036, guid: a10fc72c1c65a7e4f83750cbee6a62c9, type: 3}
+  deadTreePrefab:
+  - {fileID: 4361539243710842493, guid: 06e39fc2d2fdc66469e0fb95b0d71032, type: 3}
+  - {fileID: 8578994783148762814, guid: 51cf1b1e43cc0dd4090400539b8545e6, type: 3}
+  - {fileID: 2408569054265211640, guid: 83fdfc5f2b748444d9008ad3c86bdd08, type: 3}
+  - {fileID: 8857002666310511646, guid: f73dfa97c7316284792e98ef3acefa95, type: 3}
+  - {fileID: 1794474306676034922, guid: c7450d25aca37494cabe6f3308591563, type: 3}
+  stubbPrefab:
+  - {fileID: 7606216304927832536, guid: 4c762e6b7a0c9db48b4a260ad3d61245, type: 3}
+  - {fileID: 2538326593209147729, guid: 10859f2136a2308428c938f6cdf245a8, type: 3}
+  - {fileID: 9192599111565243746, guid: fb01382c0a19f7046b721635afa1ddaf, type: 3}
+  - {fileID: 4544378587397696478, guid: c539f7c2af3300749b23b694116951a1, type: 3}
+  stonePrefab:
+  - {fileID: 3959919119716183048, guid: aa4c1d4288a2a034c8c51ffe0a8e0a46, type: 3}
+  - {fileID: 3396447631810902682, guid: 313bfdc6cadf5df4a958bb18abb15bc6, type: 3}
+  - {fileID: 56565654844444043, guid: acc749509e9094f4ba049f2ab78ae9d4, type: 3}
+  - {fileID: 8178585928434140034, guid: ba672b339fed36046828554f7bb8934a, type: 3}
+  - {fileID: 75099837805794476, guid: 02b7665ff57bc194183ed35d486d6be3, type: 3}
+  mushroomPrefab:
+  - {fileID: 8594187323706830072, guid: f3b47b0fd9b855f47aeafad0aeac2f49, type: 3}
+  - {fileID: 2303741525203058631, guid: d9b1c6447308a45449d635e0eb7068f0, type: 3}
+  - {fileID: 1468354601546154233, guid: 91ba40977cde05542a2fc4151d10cd86, type: 3}
+  fireFliesPrefab:
+  - {fileID: 2910736297628700786, guid: 44ebe7111b007584abc3a45bd21545d6, type: 3}
